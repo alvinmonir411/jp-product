@@ -2,7 +2,14 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import HeroSlider from "./components/HeroSlider";
-
+import Stat from "./components/Stat";
+import WhyUs from "./components/WhyUs";
+import Agricultural from "./components/Agricultural";
+import RotatedBanner from "./components/RotatedBanner";
+import WhyCustomersLoveUs from "./components/WhyCustomersLoveUs";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
+import Landscape from "./components/Landscape";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -26,6 +33,14 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <HeroSlider />
+        <Agricultural />
+        <Landscape />
+        <Stat />
+        <WhyUs />
+        <RotatedBanner />
+        <WhyCustomersLoveUs />
+        <ContactSection />
+        <Footer />
         {children}
       </body>
     </html>
