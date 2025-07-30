@@ -1,3 +1,19 @@
+# Project Name
+
+This is front end Landing page For e product like ecomerce
+
+
+## Features
+
+a highly good looking carosel 
+
+## Tech Stack
+
+- Frontend:  react/ Next.js / TailwindCSS
+-tools: splide.js etc
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
